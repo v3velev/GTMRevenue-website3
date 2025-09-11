@@ -1,6 +1,6 @@
 import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
-import VideoPlayer from "@/components/VideoPlayer";
+import LuxuryVideoPlayer from "@/components/LuxuryVideoPlayer";
 import SolutionsSection from "@/components/SolutionsSection";
 import ComparisonSection from "@/components/ComparisonSection";
 import ResultsSection from "@/components/ResultsSection";
@@ -22,7 +22,7 @@ const Index = () => {
       {/* Video Sales Letter */}
       <section className="py-20 lg:py-32">
         <div className="container mx-auto px-4 lg:px-8">
-          <VideoPlayer title="See how our team can help you unlock new revenue growth." />
+          <LuxuryVideoPlayer title="See how our team can help you unlock new revenue growth." />
         </div>
       </section>
 

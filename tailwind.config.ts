@@ -23,6 +23,7 @@ export default {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
           glow: "hsl(var(--primary-glow))",
+          dark: "hsl(var(--primary-dark))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
@@ -39,6 +40,7 @@ export default {
         accent: {
           DEFAULT: "hsl(var(--accent))",
           foreground: "hsl(var(--accent-foreground))",
+          glow: "hsl(var(--accent-glow))",
         },
         popover: {
           DEFAULT: "hsl(var(--popover))",
@@ -51,7 +53,8 @@ export default {
       },
       backgroundImage: {
         'gradient-primary': 'var(--gradient-primary)',
-        'gradient-secondary': 'var(--gradient-secondary)',
+        'gradient-accent': 'var(--gradient-accent)',
+        'gradient-mixed': 'var(--gradient-mixed)',
         'gradient-background': 'var(--gradient-background)',
         'gradient-card': 'var(--gradient-card)',
         'gradient-border': 'var(--gradient-border)',
@@ -59,6 +62,7 @@ export default {
       boxShadow: {
         'premium': 'var(--shadow-premium)',
         'glow': 'var(--shadow-glow)',
+        'accent': 'var(--shadow-accent)',
         'card': 'var(--shadow-card)',
       },
       fontFamily: {

@@ -17,6 +17,8 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         gradient: "bg-gradient-primary text-white hover:opacity-90 shadow-glow",
         "gradient-outline": "border-2 border-primary bg-transparent text-primary hover:bg-primary/10 relative overflow-hidden",
+        "gradient-accent": "bg-gradient-accent text-accent-foreground hover:opacity-90 shadow-accent",
+        "gradient-mixed": "bg-gradient-mixed text-white hover:opacity-90 shadow-glow",
       },
       size: {
         default: "h-10 px-4 py-2",
