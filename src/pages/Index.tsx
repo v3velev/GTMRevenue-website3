@@ -1,12 +1,54 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import Navigation from "@/components/Navigation";
+import HeroSection from "@/components/HeroSection";
+import VideoPlayer from "@/components/VideoPlayer";
+import SolutionsSection from "@/components/SolutionsSection";
+import ComparisonSection from "@/components/ComparisonSection";
+import ResultsSection from "@/components/ResultsSection";
+import ExplanationSection from "@/components/ExplanationSection";
+import ProcessSection from "@/components/ProcessSection";
+import CalendarSection from "@/components/CalendarSection";
+import FAQSection from "@/components/FAQSection";
+import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="mb-4 text-4xl font-bold">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen bg-gradient-background">
+      {/* Navigation */}
+      <Navigation />
+
+      {/* Hero Section */}
+      <HeroSection />
+
+      {/* Video Sales Letter */}
+      <section className="py-20 lg:py-32">
+        <div className="container mx-auto px-4 lg:px-8">
+          <VideoPlayer title="See how our team can help you unlock new revenue growth." />
+        </div>
+      </section>
+
+      {/* Solutions Section */}
+      <SolutionsSection />
+
+      {/* Comparison Section */}
+      <ComparisonSection />
+
+      {/* Results Section */}
+      <ResultsSection />
+
+      {/* Explanation Section */}
+      <ExplanationSection />
+
+      {/* Process Section */}
+      <ProcessSection />
+
+      {/* Calendar Section */}
+      <CalendarSection />
+
+      {/* FAQ Section */}
+      <FAQSection />
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
