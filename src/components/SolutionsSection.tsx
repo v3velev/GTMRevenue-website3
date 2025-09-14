@@ -2,6 +2,11 @@ import { Button } from "@/components/ui/button";
 import LuxuryVideoPlayer from "./LuxuryVideoPlayer";
 import LuxuryCard from "./LuxuryCard";
 
+// Import images
+import enterpriseSalesOpportunities from "../assets/case-studies/enterprise-sales-opportunities.jpg";
+import lifetimeValue from "../assets/case-studies/lifetime-value.jpg";
+import aiAgentEcosystem from "../assets/case-studies/ai-agent-ecosystem.jpg";
+
 const SolutionsSection = () => {
   return (
     <section className="py-20 lg:py-32 relative overflow-hidden">
@@ -48,17 +53,17 @@ const SolutionsSection = () => {
                   { 
                     title: "19 enterprise sales opportunities and $1,1M in contract value from 1 campaign", 
                     subtitle: "case study 1",
-                    image: "/src/assets/case-studies/enterprise-sales-opportunities.jpg"
+                    image: enterpriseSalesOpportunities
                   },
                   { 
                     title: "$2.8M+ in lifetime value generated over 17 months", 
                     subtitle: "case study 2",
-                    image: "/src/assets/case-studies/lifetime-value.jpg"
+                    image: lifetimeValue
                   },
                   { 
                     title: "AI Agent Ecosystem - 60-90 Sales Opportunities per month", 
                     subtitle: "case study 3",
-                    image: "/src/assets/case-studies/ai-agent-ecosystem.jpg"
+                    image: aiAgentEcosystem
                   }
                 ].map((study, index) => (
                   <a key={index} href={study.title.includes("$2.8M+") ? "/case-study-1" : study.title.includes("19 enterprise") ? "/case-study-2" : study.title.includes("AI Agent Ecosystem") ? "/case-study-4" : "#"} className="group flex flex-col cursor-pointer hover:scale-105 transition-transform duration-300 border border-white/10 rounded-2xl p-4 hover:border-white/20 transition-colors duration-300">
