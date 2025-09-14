@@ -194,9 +194,9 @@ const SolutionsSection = () => {
               </ul>
 
               <div className="relative p-[2px] bg-gradient-to-r from-primary to-accent rounded-2xl hover:shadow-glow transition-shadow duration-300">
-                <button className="w-full px-6 sm:px-8 py-2 sm:py-3 rounded-2xl font-semibold text-sm sm:text-base hover:scale-105 transition-transform duration-300 hover:bg-background border-0 bg-background text-white flex items-center justify-center">
+                <a href="/case-study-6" onClick={() => window.scrollTo(0, 0)} className="w-full px-6 sm:px-8 py-2 sm:py-3 rounded-2xl font-semibold text-sm sm:text-base hover:scale-105 transition-transform duration-300 hover:bg-background border-0 bg-background text-white flex items-center justify-center">
                   See a real example and results of our partnership - video breakdown →
-                </button>
+                </a>
               </div>
             </div>
           </LuxuryCard>
