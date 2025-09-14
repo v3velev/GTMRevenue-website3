@@ -1,0 +1,6 @@
+name = "website"
+account_id = "6c6687fa7fb85cbcc85a442b69fb9048"
+compatibility_date = "2025-09-14"
+
+[site]
+bucket = "./dist"
