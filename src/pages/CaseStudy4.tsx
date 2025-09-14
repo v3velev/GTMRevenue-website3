@@ -8,6 +8,15 @@ import { Button } from "../components/ui/button";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 
+// Import images
+import caseStudy4Hero from "../assets/case-studies/case-study-4-hero.jpg";
+import caseStudy4ResultsTable from "../assets/case-studies/case-study-4-results-table.jpg";
+import vesselinMalinovsky from "../assets/case-studies/vesselin-malinovsky.jpg";
+import lifetimeValue from "../assets/case-studies/lifetime-value.jpg";
+import enterpriseSalesOpportunities from "../assets/case-studies/enterprise-sales-opportunities.jpg";
+import linkedinMeetings from "../assets/case-studies/linkedin-meetings.jpg";
+import aiMeetings from "../assets/case-studies/ai-meetings.jpg";
+
 const CaseStudy4 = () => {
   useEffect(() => {
     // Show video breakdown button on pages that have the section
@@ -47,7 +56,7 @@ const CaseStudy4 = () => {
               <div className="flex justify-center lg:justify-end">
                 <div className="aspect-[4/3] w-full max-w-2xl bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl border border-accent/20 shadow-accent flex items-center justify-center overflow-hidden">
                   <img
-                    src="/src/assets/case-studies/case-study-4-hero.jpg"
+                    src={caseStudy4Hero}
                     alt="Case Study 4 Hero Image"
                     className="w-full h-full object-cover rounded-3xl"
                     onError={(e) => {
@@ -405,7 +414,7 @@ const CaseStudy4 = () => {
               {/* Results Table Image Placeholder */}
               <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-8 flex items-center justify-center border border-primary/20 overflow-hidden">
                 <img
-                  src="/src/assets/case-studies/case-study-4-results-table.jpg"
+                  src={caseStudy4ResultsTable}
                   alt="Results Table Screenshot"
                   className="w-full h-full object-cover rounded-2xl"
                   onError={(e) => {
@@ -489,7 +498,7 @@ const CaseStudy4 = () => {
                     <div className="flex items-center gap-3 sm:gap-4 bg-gradient-card p-3 sm:p-4 rounded-2xl border border-primary/10">
                       <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl overflow-hidden shadow-glow">
                         <img 
-                          src="/src/assets/case-studies/vesselin-malinovsky.jpg" 
+                          src={vesselinMalinovsky} 
                           alt="Vesselin Malinovsky"
                           className="w-full h-full object-cover"
                           onError={(e) => {
@@ -558,7 +567,7 @@ const CaseStudy4 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/lifetime-value.jpg" 
+                        src={lifetimeValue} 
                         alt="$2.8M+ in lifetime value generated over 17 months"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {
@@ -590,7 +599,7 @@ const CaseStudy4 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/enterprise-sales-opportunities.jpg" 
+                        src={enterpriseSalesOpportunities} 
                         alt="19 enterprise sales opportunities and $1,1M in contract value from 1 campaign"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {
@@ -622,7 +631,7 @@ const CaseStudy4 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/linkedin-meetings.jpg" 
+                        src={linkedinMeetings} 
                         alt="Booking 35+ qualified meetings per month with LinkedIn content + AI multi-channel outreach"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {
@@ -654,7 +663,7 @@ const CaseStudy4 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/ai-meetings.jpg" 
+                        src={aiMeetings} 
                         alt="How GTM Revenue gets 110+ meetings with 4 hours of work per month"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {

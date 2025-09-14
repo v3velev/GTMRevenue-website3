@@ -7,6 +7,13 @@ import FAQSection from "../components/FAQSection";
 import { Button } from "../components/ui/button";
 import { Link } from "react-router-dom";
 
+// Import images
+import aleksandarVelev from "../assets/case-studies/aleksandar-velev.jpg";
+import lifetimeValue from "../assets/case-studies/lifetime-value.jpg";
+import enterpriseSalesOpportunities from "../assets/case-studies/enterprise-sales-opportunities.jpg";
+import linkedinMeetings from "../assets/case-studies/linkedin-meetings.jpg";
+import aiAgentEcosystem from "../assets/case-studies/ai-agent-ecosystem.jpg";
+
 const CaseStudy6 = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -458,7 +465,7 @@ const CaseStudy6 = () => {
                   <div className="flex items-center gap-3 sm:gap-4 bg-gradient-card p-3 sm:p-4 rounded-2xl border border-primary/10 mt-6">
                     <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl overflow-hidden shadow-glow">
                       <img 
-                        src="/src/assets/case-studies/aleksandar-velev.jpg" 
+                        src={aleksandarVelev} 
                         alt="Aleksandar Velev"
                         className="w-full h-full object-cover"
                         onError={(e) => {
@@ -519,7 +526,7 @@ const CaseStudy6 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/lifetime-value.jpg" 
+                        src={lifetimeValue} 
                         alt="$2.8M+ in lifetime value generated over 17 months"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {
@@ -550,7 +557,7 @@ const CaseStudy6 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/enterprise-sales-opportunities.jpg" 
+                        src={enterpriseSalesOpportunities} 
                         alt="19 enterprise sales opportunities and $1,1M in contract value from 1 campaign"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {
@@ -581,7 +588,7 @@ const CaseStudy6 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/linkedin-meetings.jpg" 
+                        src={linkedinMeetings} 
                         alt="Booking 35+ qualified meetings per month with LinkedIn content + AI multi-channel outreach"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {
@@ -612,7 +619,7 @@ const CaseStudy6 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/ai-agent-ecosystem.jpg" 
+                        src={aiAgentEcosystem} 
                         alt="AI Agent Ecosystem - 60-90 Sales Opportunities per month"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {

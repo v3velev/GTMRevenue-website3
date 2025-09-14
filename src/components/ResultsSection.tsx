@@ -3,6 +3,10 @@ import LuxuryVideoPlayer from "./LuxuryVideoPlayer";
 import LuxuryCard from "./LuxuryCard";
 import { Link } from "react-router-dom";
 
+// Import images
+import vesselinMalinovsky from "../assets/case-studies/vesselin-malinovsky.jpg";
+import aleksandarVelev from "../assets/case-studies/aleksandar-velev.jpg";
+
 const CaseStudyCard = ({ title, onClick, href, image }: { title: string; onClick?: () => void; href?: string; image?: string }) => {
   const content = (
     <div className="p-6 sm:p-8 flex flex-col h-full relative">
@@ -91,7 +95,7 @@ const ClientStory = () => (
         <div className="flex items-center gap-3 sm:gap-4 bg-gradient-card p-3 sm:p-4 rounded-2xl border border-primary/10">
           <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl overflow-hidden shadow-glow">
             <img 
-              src="/src/assets/case-studies/vesselin-malinovsky.jpg" 
+              src={vesselinMalinovsky} 
               alt="Vesselin Malinovsky"
               className="w-full h-full object-cover"
               onError={(e) => {
@@ -219,7 +223,7 @@ const InternalStrategies = () => (
         <div className="flex items-center gap-3 sm:gap-4 bg-gradient-card p-3 sm:p-4 rounded-2xl border border-primary/10 mt-6">
           <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl overflow-hidden shadow-glow">
             <img 
-              src="/src/assets/case-studies/aleksandar-velev.jpg" 
+              src={aleksandarVelev} 
               alt="Aleksandar Velev"
               className="w-full h-full object-cover"
               onError={(e) => {

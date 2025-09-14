@@ -7,6 +7,17 @@ import FAQSection from "../components/FAQSection";
 import { Button } from "../components/ui/button";
 import { Link } from "react-router-dom";
 
+// Import images
+import caseStudy1Hero from "../assets/case-studies/case-study-1-hero.jpg";
+import beforeCampaign from "../assets/case-studies/before-campaign.jpg";
+import aiTargeting from "../assets/case-studies/ai-targeting.jpg";
+import resultsDashboard from "../assets/case-studies/results-dashboard.jpg";
+import vesselinMalinovsky from "../assets/case-studies/vesselin-malinovsky.jpg";
+import enterpriseSalesOpportunities from "../assets/case-studies/enterprise-sales-opportunities.jpg";
+import linkedinMeetings from "../assets/case-studies/linkedin-meetings.jpg";
+import aiAgentEcosystem from "../assets/case-studies/ai-agent-ecosystem.jpg";
+import aiMeetings from "../assets/case-studies/ai-meetings.jpg";
+
 const CaseStudy1 = () => {
   return (
     <div className="min-h-screen bg-background">
@@ -44,7 +55,7 @@ const CaseStudy1 = () => {
               <div className="flex justify-center lg:justify-end">
                 <div className="aspect-[4/3] w-full max-w-2xl bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl border border-accent/20 shadow-accent flex items-center justify-center overflow-hidden">
                   <img 
-                    src="/src/assets/case-studies/case-study-1-hero.jpg" 
+                    src={caseStudy1Hero} 
                     alt="Case Study 1 Hero Image"
                     className="w-full h-full object-cover rounded-3xl"
                     onError={(e) => {
@@ -236,7 +247,7 @@ const CaseStudy1 = () => {
                 </h3>
                 <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-8 flex items-center justify-center border border-primary/20 p-4">
                   <img 
-                    src="/src/assets/case-studies/before-campaign.jpg" 
+                    src={beforeCampaign} 
                     alt="Their campaigns before"
                     className="max-w-full max-h-96 object-contain rounded-2xl"
                     onError={(e) => {
@@ -264,7 +275,7 @@ const CaseStudy1 = () => {
                 </ul>
                 <div className="bg-gradient-to-br from-accent/20 to-primary/20 rounded-2xl flex items-center justify-center border border-accent/20 p-4">
                   <img 
-                    src="/src/assets/case-studies/ai-targeting.jpg" 
+                    src={aiTargeting} 
                     alt="Better targeting empowered by our custom AI"
                     className="max-w-full max-h-96 object-contain rounded-2xl"
                     onError={(e) => {
@@ -374,7 +385,7 @@ const CaseStudy1 = () => {
               {/* Image Placeholder */}
               <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-12 flex items-center justify-center border border-primary/20 overflow-hidden">
                 <img 
-                  src="/src/assets/case-studies/results-dashboard.jpg" 
+                  src={resultsDashboard} 
                   alt="Results Dashboard"
                   className="w-full h-full object-cover rounded-2xl"
                   onError={(e) => {
@@ -459,7 +470,7 @@ const CaseStudy1 = () => {
                     <div className="flex items-center gap-3 sm:gap-4 bg-gradient-card p-3 sm:p-4 rounded-2xl border border-primary/10">
                       <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl overflow-hidden shadow-glow">
                         <img 
-                          src="/src/assets/case-studies/vesselin-malinovsky.jpg" 
+                          src={vesselinMalinovsky} 
                           alt="Vesselin Malinovsky"
                           className="w-full h-full object-cover"
                           onError={(e) => {
@@ -527,7 +538,7 @@ const CaseStudy1 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/enterprise-sales-opportunities.jpg" 
+                        src={enterpriseSalesOpportunities} 
                         alt="19 enterprise sales opportunities"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {
@@ -558,7 +569,7 @@ const CaseStudy1 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/linkedin-meetings.jpg" 
+                        src={linkedinMeetings} 
                         alt="Booking 35+ qualified meetings"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {
@@ -589,7 +600,7 @@ const CaseStudy1 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/ai-agent-ecosystem.jpg" 
+                        src={aiAgentEcosystem} 
                         alt="AI Agent Ecosystem"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {
@@ -620,7 +631,7 @@ const CaseStudy1 = () => {
                     </h3>
                     <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                       <img 
-                        src="/src/assets/case-studies/ai-meetings.jpg" 
+                        src={aiMeetings} 
                         alt="How GTM Revenue gets 110+ meetings with 4 hours of work per month"
                         className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                         onError={(e) => {

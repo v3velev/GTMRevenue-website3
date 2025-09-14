@@ -3,6 +3,9 @@ import LuxuryVideoPlayer from "./LuxuryVideoPlayer";
 import { Button } from "./ui/button";
 import { Link } from "react-router-dom";
 
+// Import images
+import vesselinMalinovsky from "../assets/case-studies/vesselin-malinovsky.jpg";
+
 const ClientStory = () => ( // Updated customer story
   <LuxuryCard id="client-interview" variant="premium" className="shadow-glow">
     <div className="grid lg:grid-cols-2 gap-8 items-start">
@@ -29,7 +32,7 @@ const ClientStory = () => ( // Updated customer story
         <div className="flex items-center gap-3 sm:gap-4 bg-gradient-card p-3 sm:p-4 rounded-2xl border border-primary/10">
           <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl overflow-hidden shadow-glow">
             <img 
-              src="/src/assets/case-studies/vesselin-malinovsky.jpg" 
+              src={vesselinMalinovsky} 
               alt="Vesselin Malinovsky"
               className="w-full h-full object-cover"
               onError={(e) => {

@@ -13,6 +13,12 @@ import { Button } from "../components/ui/button";
 import { Link } from "react-router-dom";
 import { useEffect } from "react";
 
+// Import images
+import vesselinMalinovsky from "../assets/case-studies/vesselin-malinovsky.jpg";
+import linkedinMeetings from "../assets/case-studies/linkedin-meetings.jpg";
+import aiAgentEcosystem from "../assets/case-studies/ai-agent-ecosystem.jpg";
+import aleksandarVelev from "../assets/case-studies/aleksandar-velev.jpg";
+
 const MarketIntelligence = () => {
   useEffect(() => {
     // Show video breakdown button on pages that have the section
@@ -114,7 +120,7 @@ const MarketIntelligence = () => {
                   <div className="flex items-center gap-3 sm:gap-4 bg-gradient-card p-3 sm:p-4 rounded-2xl border border-primary/10">
                     <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl overflow-hidden shadow-glow">
                       <img 
-                        src="/src/assets/case-studies/vesselin-malinovsky.jpg" 
+                        src={vesselinMalinovsky} 
                         alt="Vesselin Malinovsky"
                         className="w-full h-full object-cover"
                         onError={(e) => {
@@ -311,7 +317,7 @@ const MarketIntelligence = () => {
                   </h3>
                   <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                     <img 
-                      src="/src/assets/case-studies/linkedin-meetings.jpg" 
+                      src={linkedinMeetings} 
                       alt="Booking 35+ qualified meetings per month with LinkedIn content + AI multi-channel outreach"
                       className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                       onError={(e) => {
@@ -344,7 +350,7 @@ const MarketIntelligence = () => {
                   </h3>
                   <div className="aspect-[25/10] bg-gradient-to-br from-primary/20 via-background to-accent/20 rounded-2xl flex items-center justify-center border-2 border-primary/10 group-hover:border-primary/30 transition-colors relative overflow-hidden">
                     <img 
-                      src="/src/assets/case-studies/ai-agent-ecosystem.jpg" 
+                      src={aiAgentEcosystem} 
                       alt="AI Agent Ecosystem - 60-90 Sales Opportunities per month"
                       className="w-full h-full object-cover rounded-2xl group-hover:scale-110 transition-transform duration-300"
                       onError={(e) => {
@@ -461,7 +467,7 @@ const MarketIntelligence = () => {
                   <div className="flex items-center gap-3 sm:gap-4 bg-gradient-card p-3 sm:p-4 rounded-2xl border border-primary/10 mt-6">
                     <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-2xl overflow-hidden shadow-glow">
                       <img 
-                        src="/src/assets/case-studies/aleksandar-velev.jpg" 
+                        src={aleksandarVelev} 
                         alt="Aleksandar Velev"
                         className="w-full h-full object-cover"
                         onError={(e) => {
