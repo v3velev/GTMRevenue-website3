@@ -1,3 +1,7 @@
+// Import images
+import lifetimeValue from "../assets/case-studies/lifetime-value.jpg";
+import enterpriseSalesOpportunities from "../assets/case-studies/enterprise-sales-opportunities.jpg";
+
 const CaseStudyCard = ({ title, onClick, href, image }: { title: string; onClick?: () => void; href?: string; image?: string }) => {
   const content = (
     <div className="p-6 sm:p-8 flex flex-col h-full relative">
@@ -76,12 +80,12 @@ const CaseStudiesSection = () => {
           <CaseStudyCard 
             title="$2.8M+ in lifetime value generated over 17 months" 
             href="/case-study-1"
-            image="/src/assets/case-studies/lifetime-value.jpg"
+            image={lifetimeValue}
           />
           <CaseStudyCard 
             title="19 enterprise sales opportunities and $1,1M in contract value from 1 campaign" 
             href="/case-study-2"
-            image="/src/assets/case-studies/enterprise-sales-opportunities.jpg"
+            image={enterpriseSalesOpportunities}
           />
         </div>
       </div>

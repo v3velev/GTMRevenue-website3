@@ -6,6 +6,10 @@ import { Link } from "react-router-dom";
 // Import images
 import vesselinMalinovsky from "../assets/case-studies/vesselin-malinovsky.jpg";
 import aleksandarVelev from "../assets/case-studies/aleksandar-velev.jpg";
+import lifetimeValue from "../assets/case-studies/lifetime-value.jpg";
+import enterpriseSalesOpportunities from "../assets/case-studies/enterprise-sales-opportunities.jpg";
+import linkedinMeetings from "../assets/case-studies/linkedin-meetings.jpg";
+import aiAgentEcosystem from "../assets/case-studies/ai-agent-ecosystem.jpg";
 
 const CaseStudyCard = ({ title, onClick, href, image }: { title: string; onClick?: () => void; href?: string; image?: string }) => {
   const content = (
@@ -281,12 +285,12 @@ const ResultsSection = () => {
             <CaseStudyCard 
               title="$2.8M+ in lifetime value generated over 17 months" 
               href="/case-study-1"
-              image="/src/assets/case-studies/lifetime-value.jpg"
+              image={lifetimeValue}
             />
             <CaseStudyCard 
               title="19 enterprise sales opportunities and $1,1M in contract value from 1 campaign" 
               href="/case-study-2"
-              image="/src/assets/case-studies/enterprise-sales-opportunities.jpg"
+              image={enterpriseSalesOpportunities}
             />
           </div>
         </div>
@@ -394,12 +398,12 @@ const ResultsSection = () => {
             <CaseStudyCard 
               title="Booking 35+ qualified meetings per month with LinkedIn content + AI multi-channel outreach" 
               href="/case-study-3" 
-              image="/src/assets/case-studies/linkedin-meetings.jpg"
+              image={linkedinMeetings}
             />
             <CaseStudyCard 
               title="AI Agent Ecosystem - 60-90 Sales Opportunities per month" 
               href="/case-study-4" 
-              image="/src/assets/case-studies/ai-agent-ecosystem.jpg"
+              image={aiAgentEcosystem}
             />
           </div>
         </div>
