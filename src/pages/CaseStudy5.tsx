@@ -30,7 +30,7 @@ const CaseStudy5 = () => {
             <div className="max-w-6xl mx-auto text-center">
               <div className="space-y-8">
                 <h1 className="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight text-white max-w-5xl mx-auto">
-                  How GTM Revenue generates <span className="bg-gradient-to-r from-primary via-primary-glow to-accent bg-clip-text text-transparent">100+ meetings per month</span> with just 4 hours of monthly work — and stands out in a crowded market.
+                  How GTM Revenue generates <span className="bg-gradient-to-r from-primary via-primary-glow to-accent bg-clip-text text-transparent">110+ meetings per month</span> with just 4 hours of monthly work — and stands out in a crowded market.
                 </h1>
                 
                 <p className="text-xl sm:text-2xl lg:text-3xl text-white/90 leading-relaxed max-w-4xl mx-auto">
