@@ -278,11 +278,11 @@ const CaseStudy3 = () => {
               </div>
 
               {/* Results Screenshot Image Placeholder */}
-              <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-8 flex items-center justify-center border border-primary/20 overflow-hidden">
+              <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
                 <img
                   src={caseStudy3Results}
                   alt="Results Screenshot"
-                  className="w-full h-full object-cover rounded-2xl"
+                  className="w-full h-auto object-contain"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
                     e.currentTarget.nextElementSibling.style.display = 'flex';

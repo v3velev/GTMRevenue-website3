@@ -165,11 +165,11 @@ const CaseStudy2 = () => {
                   <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-6">
                     OLD WAY:
                   </h3>
-                  <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl flex items-center justify-center border border-primary/20 p-4">
+                  <div className="-mx-4 sm:-mx-6 lg:-mx-8">
                     <img
                       src={oldWayCampaign}
                       alt="OLD WAY Campaign Process"
-                      className="max-w-full max-h-96 object-contain rounded-2xl"
+                      className="w-full h-auto object-contain"
                       onError={(e) => {
                         e.currentTarget.style.display = 'none';
                         e.currentTarget.nextElementSibling.style.display = 'flex';
@@ -264,11 +264,11 @@ const CaseStudy2 = () => {
               </div>
 
               {/* Glassdoor Data Image Placeholder */}
-              <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-8 flex items-center justify-center border border-primary/20 p-4">
+              <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
                 <img
                   src={glassdoorAnalysis}
                   alt="Glassdoor Data Analysis"
-                  className="max-w-full max-h-96 object-contain rounded-2xl"
+                  className="w-full h-auto object-contain"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
                     e.currentTarget.nextElementSibling.style.display = 'flex';
@@ -324,11 +324,11 @@ const CaseStudy2 = () => {
                   Message example:
                 </h3>
                 
-                <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-6 flex items-center justify-center border border-primary/20 p-4">
+                <div className="mb-6 -mx-4 sm:-mx-6 lg:-mx-8">
                   <img
                     src={caseStudy2MessageExample}
                     alt="Message Example"
-                    className="max-w-full max-h-96 object-contain rounded-2xl"
+                    className="w-full h-auto object-contain"
                     onError={(e) => {
                       e.currentTarget.style.display = 'none';
                       e.currentTarget.nextElementSibling.style.display = 'flex';
@@ -408,11 +408,11 @@ const CaseStudy2 = () => {
               </div>
 
               {/* Results Dashboard Image Placeholder */}
-              <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-8 flex items-center justify-center border border-primary/20 p-4">
+              <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
                 <img
                   src={caseStudy2ResultsDashboard}
                   alt="Results Dashboard"
-                  className="max-w-full max-h-96 object-contain rounded-2xl"
+                  className="w-full h-auto object-contain"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
                     e.currentTarget.nextElementSibling.style.display = 'flex';
@@ -424,11 +424,11 @@ const CaseStudy2 = () => {
               </div>
 
               {/* Chat Conversation Image Placeholder */}
-              <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-8 flex items-center justify-center border border-primary/20 p-4">
+              <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
                 <img
                   src={caseStudy2ChatConversation}
                   alt="Chat Conversation"
-                  className="max-w-full max-h-96 object-contain rounded-2xl"
+                  className="w-full h-auto object-contain"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
                     e.currentTarget.nextElementSibling.style.display = 'flex';
@@ -440,11 +440,11 @@ const CaseStudy2 = () => {
               </div>
 
               {/* Additional Image Placeholder */}
-              <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-8 flex items-center justify-center border border-primary/20 p-4">
+              <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
                 <img
                   src={caseStudy2Additional}
                   alt="Additional Results"
-                  className="max-w-full max-h-96 object-contain rounded-2xl"
+                  className="w-full h-auto object-contain"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
                     e.currentTarget.nextElementSibling.style.display = 'flex';

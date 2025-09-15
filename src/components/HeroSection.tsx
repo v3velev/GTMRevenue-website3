@@ -38,9 +38,11 @@ const HeroSection = () => {
       <div className="container mx-auto px-4 lg:px-8 relative z-10">
         <div className="text-center max-w-5xl mx-auto animate-fade-in">
           {/* Main Headlines */}
-          <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-8 leading-tight">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold mb-8 leading-tight">
             <span className="bg-gradient-to-r from-primary via-primary-glow to-primary bg-clip-text text-transparent">Revenue growth</span>{" "}
-            <span className="text-foreground">and lasting competitive advantage</span>
+            <span className="text-foreground">and lasting</span>
+            <br />
+            <span className="text-foreground">competitive advantage</span>
           </h1>
 
           {/* Subtitle */}

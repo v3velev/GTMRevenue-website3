@@ -247,15 +247,19 @@ const CaseStudy4 = () => {
 
               <div className="bg-gradient-card rounded-3xl p-8 border border-accent/20 shadow-accent mb-8 mx-4">
                 <div className="text-center">
-                  <div className="flex items-center justify-center space-x-4 text-xl font-semibold text-foreground w-full">
+                  <div className="flex flex-col sm:flex-row items-center justify-center space-y-2 sm:space-y-0 sm:space-x-4 text-xl font-semibold text-foreground w-full">
                     <span>Data Points</span>
-                    <span className="text-accent">→</span>
+                    <span className="text-accent hidden sm:inline">→</span>
+                    <span className="text-accent sm:hidden">↓</span>
                     <span>Story</span>
-                    <span className="text-accent">→</span>
+                    <span className="text-accent hidden sm:inline">→</span>
+                    <span className="text-accent sm:hidden">↓</span>
                     <span>Company Insights</span>
-                    <span className="text-accent">→</span>
+                    <span className="text-accent hidden sm:inline">→</span>
+                    <span className="text-accent sm:hidden">↓</span>
                     <span>Powerful Messaging</span>
-                    <span className="text-accent">→</span>
+                    <span className="text-accent hidden sm:inline">→</span>
+                    <span className="text-accent sm:hidden">↓</span>
                     <span>Prospects That Trust You and Want to Buy</span>
                   </div>
                 </div>
@@ -412,11 +416,11 @@ const CaseStudy4 = () => {
               </div>
 
               {/* Results Table Image Placeholder */}
-              <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-8 flex items-center justify-center border border-primary/20 overflow-hidden">
+              <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
                 <img
                   src={caseStudy4ResultsTable}
                   alt="Results Table Screenshot"
-                  className="w-full h-full object-cover rounded-2xl"
+                  className="w-full h-auto object-contain"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
                     e.currentTarget.nextElementSibling.style.display = 'flex';

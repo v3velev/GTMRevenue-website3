@@ -245,11 +245,11 @@ const CaseStudy1 = () => {
                 <h3 className="text-xl sm:text-2xl font-bold text-foreground mb-6">
                   Their campaigns before:
                 </h3>
-                <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-8 flex items-center justify-center border border-primary/20 p-4">
+                <div className="mb-8 -mx-4 sm:-mx-6 lg:-mx-8">
                   <img 
                     src={beforeCampaign} 
                     alt="Their campaigns before"
-                    className="max-w-full max-h-96 object-contain rounded-2xl"
+                    className="w-full h-auto object-contain"
                     onError={(e) => {
                       e.currentTarget.style.display = 'none';
                       e.currentTarget.nextElementSibling.style.display = 'flex';
@@ -273,11 +273,11 @@ const CaseStudy1 = () => {
                     <span>better targeting empowered by our custom AI</span>
                   </li>
                 </ul>
-                <div className="bg-gradient-to-br from-accent/20 to-primary/20 rounded-2xl flex items-center justify-center border border-accent/20 p-4">
+                <div className="-mx-4 sm:-mx-6 lg:-mx-8">
                   <img 
                     src={aiTargeting} 
                     alt="Better targeting empowered by our custom AI"
-                    className="max-w-full max-h-96 object-contain rounded-2xl"
+                    className="w-full h-auto object-contain"
                     onError={(e) => {
                       e.currentTarget.style.display = 'none';
                       e.currentTarget.nextElementSibling.style.display = 'flex';
@@ -383,11 +383,11 @@ const CaseStudy1 = () => {
               </div>
 
               {/* Image Placeholder */}
-              <div className="bg-gradient-to-br from-primary/20 to-accent/20 rounded-2xl mb-12 flex items-center justify-center border border-primary/20 overflow-hidden">
+              <div className="mb-12 -mx-4 sm:-mx-6 lg:-mx-8">
                 <img 
                   src={resultsDashboard} 
                   alt="Results Dashboard"
-                  className="w-full h-full object-cover rounded-2xl"
+                  className="w-full h-auto object-contain"
                   onError={(e) => {
                     e.currentTarget.style.display = 'none';
                     e.currentTarget.nextElementSibling.style.display = 'flex';
