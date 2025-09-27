@@ -346,7 +346,7 @@ const GTMCampaigns = () => {
                     </div>
                     <div>
                       <div className="font-bold text-foreground text-base sm:text-lg">Aleksandar Velev</div>
-                      <div className="text-muted-foreground text-xs sm:text-sm">CRO and Co-Founder</div>
+                      <div className="text-muted-foreground text-xs sm:text-sm">CRO & Founder</div>
                     </div>
                   </div>
                 </div>

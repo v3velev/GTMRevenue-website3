@@ -144,7 +144,7 @@ const CaseStudy6 = () => {
               
               <div className="max-w-7xl mx-auto">
                 <LuxuryVideoPlayer 
-                  youtubeId="lh4jHsn5T9E"
+                  youtubeId="0W-50QdAop8"
                   autoplay={true}
                 />
               </div>
@@ -480,7 +480,7 @@ const CaseStudy6 = () => {
                     </div>
                     <div>
                       <div className="font-bold text-foreground text-base sm:text-lg">Aleksandar Velev</div>
-                      <div className="text-muted-foreground text-xs sm:text-sm">CRO and Co-Founder</div>
+                      <div className="text-muted-foreground text-xs sm:text-sm">CRO & Founder</div>
                     </div>
                   </div>
                 </div>
@@ -488,7 +488,7 @@ const CaseStudy6 = () => {
                 {/* Video */}
                 <div className="lg:w-[56%]">
                   <LuxuryVideoPlayer 
-                    youtubeId="0W-50QdAop8"
+                    youtubeId="ecDrbaj0x5Y"
                     autoplay={true}
                   />
                   <div className="mt-12">
