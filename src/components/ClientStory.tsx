@@ -20,6 +20,7 @@ const ClientStory = () => ( // Updated customer story
           </span>
         </div>
 
+
         <blockquote className="text-lg sm:text-xl lg:text-2xl font-bold text-foreground leading-tight">
           "GTM Revenue did what no one else could"
         </blockquote>

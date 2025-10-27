@@ -49,7 +49,7 @@ const Footer = () => {
               </span>
               
               <a 
-                href="https://www.youtube.com/@VelevAleksandar" 
+                href="https://www.youtube.com/@gtmrevenue" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 border border-primary/30 hover:border-primary/50 hover:bg-gradient-to-r hover:from-primary/30 hover:to-accent/30 transition-all duration-300 hover:scale-110"
@@ -64,7 +64,7 @@ const Footer = () => {
               </a>
               
               <a 
-                href="https://www.linkedin.com/in/v3velev/" 
+                href="https://www.linkedin.com/in/aleksvelev12/ " 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="group flex items-center justify-center w-10 h-10 rounded-full bg-gradient-to-r from-primary/20 to-accent/20 border border-primary/30 hover:border-primary/50 hover:bg-gradient-to-r hover:from-primary/30 hover:to-accent/30 transition-all duration-300 hover:scale-110"
